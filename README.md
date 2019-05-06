@@ -13,5 +13,4 @@ I didn't make code review for this one, so there is possibility for a little cha
 ## Tech/framework used
 HTML, CSS.
 
-## Live: 
-https://282621.github.io/portfolio-site/
+
