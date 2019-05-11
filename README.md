@@ -11,6 +11,6 @@ This page is still in building process.
 I didn't make code review for this one, so there is possibility for a little chaos in my code. (for now)
 
 ## Tech/framework used
-HTML, CSS.
+HTML, CSS, JS.
 
 
