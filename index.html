@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buisness webpage pattern">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Buisness webpage pattern">
+    <meta name="author" content="Peter Woźniak">
+    <title>Buisness-wabepage-pattern</title>
+
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="container transparent">
+        <h1>My/Web</h1>
+        <button class="hamburger">
+            <span class="hamburger__box">
+                <span class="hamburger__inner"></span>
+            </span>
+        </button>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navbar__linkElement "><a href="#aboutMe">About me</a></li>
+                <li class="navbar__linkElement "><a href="#projects">Projects</a></li>
+                <li class="navbar__linkElement "><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container-fluid-md">
+        <div class="center">
+            <h2>I'm Peter</h2>
+            <h3>Web Developer</h3>
+            <button class="btn btn__secondary"><a href="#contact">Hire me</a>
+            </button>
+        </div>
+        <div>
+            <img class="image" src="https://images.unsplash.com/photo-1506919258185-6078bba55d2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=815&q=80" alt="Man standing a office">
+        </div>
+    </main>
+
+    <h3 id="aboutMe" class="center">About me</h3>
+
+    <div class="container-fluid-md bg__yellow">
+        <div>
+            <img src="./src/images/undraw_master_plan_95wa.svg" alt="image of person looking at moon">
+        </div>
+        <div>
+            <h2>Why you should hire me?</h2>
+            <article>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+            more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</article>
+        </div>
+    </div>
+
+    <div class="container-fluid-md bg__yellow">
+        <div>
+            <h2>My Experience</h2>
+            <article>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+                type specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                essentially
+                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                passages, and
+                more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</article>
+        </div>
+
+        <div>
+            <img src="./src/images/undraw_online_cv_qy9w.svg" alt="image form undraw man looking forward">
+        </div>
+    </div>
+
+    <h3 class="center" id="projects">My projects</h3>
+
+    <div class="container-fluid-lg">
+        <div>
+            <h4>Blog example</h4>
+            <div class="hoverBox__opacity">
+                <img class="image__projects" src="./src/images/undraw_online_cv_qy9w.svg" alt="project image">
+                <div class="hoverBox--text">
+                    <a href="#" class="text"><img class="icon" src="./src/images/live-news.svg" alt="coding icon"></a>
+                    <a href="#" class="text"><img class="icon" src="./src/images/coding.svg" alt="coding icon"></a>
+                </div>
+            </div>
+        </div>
+    
+        <div>
+            <h4>Website example</h4>
+            <div class="hoverBox__opacity">
+              <img class="image__projects" src="./src/images/undraw_online_cv_qy9w.svg" alt="project image">
+              <div class="hoverBox--text">
+                <a href="#" class="text"><img class="icon" src="./src/images/live-news.svg" alt="coding icon"></a>
+                <a href="#" class="text"><img class="icon" src="./src/images/coding.svg" alt="coding icon"></a>
+              </div>
+            </div>
+        </div>
+
+        <div>
+            <h4>Mobile UI/UX design</h4>
+            <div class="hoverBox__opacity">
+                <img class="image__projects" src="./src/images/undraw_online_cv_qy9w.svg" alt="project image">
+                <div class="hoverBox--text">
+                    <a href="#" class="text"><img class="icon" src="./src/images/live-news.svg" alt="coding icon"></a>
+                    <a href="#" class="text"><img class="icon" src="./src/images/coding.svg" alt="coding icon"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main id="contact" class="container-fluid-md bg__yellow">
+        <div>
+            <h2>If you have any questions, feel free to ask!</h2>
+        </div>
+        <div>
+            <h3>Contact form</h3>
+            <form class="contactForm">
+                <div class="half left cf">
+                    <input type="text" id="input-name" placeholder="Name">
+                    <input type="email" id="input-email" placeholder="Email address">
+                    <input type="text" id="input-subject" placeholder="Subject">
+                </div>
+                <div class="half right cf">
+                    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+                </div>
+                <input type="submit" class="btn btn__primary" value="Submit" id="input-submit">
+            </form>
+        </div>
+    </main>
+
+    <div class="social-bar">
+        <a href="#" class="facebook"><img class="icon" src="./src/images/facebook.svg" alt="facebook icon"></a>
+        <a href="#" class="twitter"><img class="icon" src="./src/images/twitter.svg" alt="twitter icon"></a>
+        <a href="#" class="linkedin"><img class="icon" src="./src/images/linkedin.svg" alt="linkedin icon"></a>
+        <a href="#" class="youtube"><img class="icon" src="./src/images/youtube.svg" alt="youtube icon"></a>
+    </div>
+
+
+    
+    <footer class="container-fluid-sm center">
+        <nav class="footer-nav">
+            <a href="#" class="facebook"><img class="icon" src="./src/images/facebook.svg" alt="facebook icon"></a>
+            <a href="#" class="twitter"><img class="icon" src="./src/images/twitter.svg" alt="twitter icon"></a>
+            <a href="#" class="linkedin"><img class="icon" src="./src/images/linkedin.svg" alt="linkedin icon"></a>
+            <a href="#" class="youtube"><img class="icon" src="./src/images/youtube.svg" alt="youtube icon"></a>
+        </nav>
+        <h6>All rights reserved to © CushyCode</h6>
+        </footer>
+        
+        <button><a title="go to top button" onclick="topFunction()" id="btn__scrollUp" class="btn btn__scrollUp" href="#"><img src="./src/images/long-arrow-pointing-up.svg" alt=""></a></button>
+    <script type="text/javascript" src="./src/script/main.js"></script>
+</body>
+</html>
