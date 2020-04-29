@@ -1,5 +1,5 @@
 ## Portfolio project
-After making "x" times another portfolio project, I decide to make it this time on github. 
+This project is similar to the design I have found on the dribble :) 
 
 ## Motivation
 Every web-developer need a portfolio webpage, so I could use it as a bussines card.
