@@ -6,6 +6,8 @@ Every web-developer need a portfolio webpage, so I could use it as a bussines ca
 
 ## Build status
 This page is still in building process. Change comming in a few days.
+NEED TO FIX: 
+- Hero image responsive size
 
 ## Code style
 I didn't make code review for this one, so there is possibility for a little chaos in my code. (for now)
